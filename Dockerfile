@@ -5,4 +5,4 @@ EXPOSE 8501
 COPY . /app
 WORKDIR /app
 ENTRYPOINT ["streamlit","run"]
-CMP SA.py
+CMD SA.py
